@@ -1,0 +1,21 @@
+.spreadsheet-row-label {
+    padding: 6px;
+    margin: 0 4px;
+    width: 30px;
+    height: 32px;
+    color: black;
+}
+
+.spreadsheet-column-label {
+    padding: 4px;
+    margin: 4px 0;
+    width: 37px;
+    height: 30px;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    color: grey;
+    font-weight: 100;
+}

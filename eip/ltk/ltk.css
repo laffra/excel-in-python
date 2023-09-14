@@ -1,0 +1,32 @@
+.vbox {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 0;
+}
+
+.hbox {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    margin-top: -4px;
+}
+
+.text {
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.text:hover {
+    background-color: bisque;
+}
+
+.input {
+    border: 1px solid #DDD;
+    width: 36px;
+    height: 32px;
+}
+
+py-terminal {
+    display: none;
+}
