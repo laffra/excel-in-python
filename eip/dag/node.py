@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import inspect
-from graph import cache
+from dag import cache
 
 
 class Node():

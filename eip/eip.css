@@ -19,3 +19,7 @@ h3 {
     color: grey;
     font-weight: 100;
 }
+
+#editor {
+    width: 336px;
+}

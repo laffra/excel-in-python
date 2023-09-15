@@ -1,5 +1,5 @@
 from ltk import later, find, on, HBox, Input, Text, VBox
-from graph import Node, NotSet, memoize, clear
+from dag import Node, NotSet, memoize, clear
 import re
 
 ROW_COUNT = 5
