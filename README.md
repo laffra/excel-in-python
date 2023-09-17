@@ -4,10 +4,14 @@ This is a spreadsheet, implemented in Python, completely running in the browser,
 
 Microsoft recently released Python-in-Excel, allowing the use of Python inside Excel spreadsheets. 
 
-In this project, we do the opposite and implement the dependency graph used by spreadsheets like Excel, 
-but write everyyhing in Python. This project uses PyScript to display its UI using Python in a browser.  It contains no JavaScript at all.
+In this project, we do the opposite and implement the dependency graph used by spreadsheets such as Excel and Google Sheets, 
+but implement the spreadsheet engine entirely in Python. This project uses PyScript to display its UI in a browser.  It contains no JavaScript at all.
 
-![Example UI](example-1.png)
+Here is an example:
+
+<kbd>
+  <img src="example-1.png">
+</kbd>
 
 This example includes two cell functions:
 - C1: `A1+B1`, this adds two numbers
