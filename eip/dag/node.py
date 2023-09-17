@@ -8,6 +8,7 @@ class Node():
     inputs = []
     dependents = set()
     listeners = []
+    error = False
 
     def __init__(self: Node, *args):
         self.dependents = set()
@@ -30,6 +31,7 @@ class Node():
 
     def reset(self):
         self.clear()
+        self.error = False
         self.notify_listeners()
     
     def clear(self):

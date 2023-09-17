@@ -13,8 +13,11 @@
 }
 
 .text {
-    border: 1px solid grey;
-    text-align: center;
+    border: 1px solid #DDD;
+    text-align: left;
+    width: 36px;
+    height: 32px;
+    padding: 2px;
 }
 
 .text:hover {
