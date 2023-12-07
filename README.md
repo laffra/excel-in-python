@@ -1,6 +1,7 @@
 # Excel in Python
 
-This is a spreadsheet, implemented in Python, completely running in the browser, using PyScript.
+This is a spreadsheet, implemented in Python, completely running in the browser, using PyScript. A newer version
+of this project, named PySheets, is under development. More on that soon.
 
 Microsoft recently released Python-in-Excel, allowing the use of Python inside Excel spreadsheets. 
 
